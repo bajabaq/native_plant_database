@@ -1,15 +1,15 @@
 # native_plant_database
 a database of plants native to SC, use for planning gardens
 
-3 tables:
-Plant Info
-Animal Info (what plant supports)
-Companion Plants
+3 tables:  
+Plant Info  
+plant_index_id; common_name; latin_name; height; width; bloom_time; bloom_color; preferred_location   
 
-plant_index_id; common_name; latin_name; height; width; bloom_time; bloom_color; preferred_location; 
-animal_index_id; plant_index_id; animal_name
-companion_index_id; plant_index_id; plant_index_id
+Animal Info (what plant supports)  
+animal_index_id; plant_index_id; animal_name  
 
+Companion Plants  
+companion_index_id; plant_index_id; plant_index_id  
 
 # garden planner
 input bed info (size, shape, location (sun, shade, etc), soil_type, num_plant_types_desired 
