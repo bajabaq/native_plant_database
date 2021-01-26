@@ -12,9 +12,9 @@ Companion Plants
 companion_index_id; plant_index_id; plant_index_id  
 
 # garden planner
-input bed info (size, shape, location (sun, shade, etc), soil_type, num_plant_types_desired 
-use native_plant_database to create
-outputs plant list and location (in bed)
+input bed info (size, shape, location (sun, shade, etc), soil_type, num_plant_types_desired)  
+use native_plant_database to create  
+outputs plant list and location (in bed)  
 
 # resources  
 https://recology.info/2016/10/usda-plants-database-r/  
